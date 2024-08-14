@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./style.css" rel="stylesheet">
+    <link
+      rel="icon"
+      href="http://pngimg.com/uploads/netflix/small/netflix_PNG15.png">
+</head>
+<body class="bg-zinc-800 text-white overflow-x-hidden h-[900vh] font-sans">
+    <!-- header starts here -->
+    <header class=" flex items-center lg:justify-around justify-between py-5 px-5 absolute inset-x-0 top-0 z-30 ">
+    <div class="logo flex lg:mr-32 lg:ml-10 ">
+        <img src="https://www.freepnglogos.com/uploads/netflix-logo-0.png" alt="netflix-logo" class=" lg:h-12 lg:w-40 md:h-12 md:w-38 h-7">
+    </div>
+
+        <div class="nav2 flex md:ml-56">
+            <div class="button flex items-center justify-evenly border border-gray-300 h-7 md:w-30 md:h-8 rounded  md:mx-6 mx-2 md:px-1 cursor-pointer">
+                <i class="fa-solid fa-language mx-2"></i>
+                <p class="hidden md:block">English</p>
+                <i class="fa-solid fa-sort-down mx-2 text-xs"></i>
+            </div>
+            <button class="w-20 bg-red-600 md:px-4 rounded font-semibold 
+            text-sm
+            hover:bg-red-700 active:bg-red-800 active:text-gray-200 ">Sign In</button>
+        </div>
+    </header>
+
+    <!-- hero section starts here -->
+     <div class="relative">
+        <div id="hero" class="h-[auto] w-[auto] -z-10 "><img src="https://assets.nflxext.com/ffe/siteui/vlv3/b2c3e95b-b7b5-4bb7-a883-f4bfc7472fb7/19fc1a4c-82db-4481-ad08-3a1dffbb8c39/IN-en-20240805-POP_SIGNUP_TWO_WEEKS-perspective_WEB_24a485f6-1820-42be-9b60-1b066f1eb869_large.jpg"class=" overflow-x-auto object-cover   h-[auto] scale-100 w-[auto]">
+        </div>
+        <div id="hero-bg-overlay" class="w-[100%] bg-gradient-to-t bg-[#1f1f1f53]  absolute inset-x-0 top-0 z-20 h-[100%]">
+        </div>
+        <div id="hero-bg-overlay2" class="w-[100%] bg-gradient-to-b bg-[#0d0d0d8b] absolute inset-x-0 top-0 z-20 h-[100%]">
+        </div>
+        <h1 class="text-white absolute left-[15.5%] top-[40%] z-50 lg:text-5xl lg:font-bold"> Unlimited movies, TV shows and more</h1>
+        <p class="text-white absolute left-[35.5%] top-[50%] z-50 lg:text-2xl ">Watch anywhere. Cancel anytime.</p>
+        <p class="text-white absolute left-[25%] top-[58%] z-50 lg:text-xl ">Ready to watch? Enter your email to create or restart your membership.</p>
+        <div class="flex ">
+            <input type="text" placeholder="Email address" class="absolute left-[26.8%] top-[64.3%] z-50 h-14 w-[28.9%] rounded pl-4 text-bold bg-transparent border-[0.30px] border-gray-400">
+            <button class="w-[16.3%] h-14 bg-red-600 md:px-4 rounded font-semibold  hover:bg-red-700 active:bg-red-800 active:text-gray-200 absolute left-[56.4%] top-[64.3%] z-50 lg:text-2xl justify-center">Get Started<i class="fa-solid fa-chevron-right ml-4 text-lg"></i></button>
+        </div>
+    </div>
+    
+    <!-- 2nd section starts here-->
+    <div class="relative mt-2 bg-black lg:flex items-center py-[3rem] ">
+        <section class=" flex flex-col justify-center items-start lg:ml-36 lg:mr-18">
+            <h2 class="text-5xl font-extrabold mb-4">Enjoy on your TV</h2>
+            <p class="text-2xl">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+        </section>
+        <section class="lg:mr-32 lg:w-[90%] relative">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" class="lg:w-[100%] relative z-50">
+            <div>
+                <video class="absolute z-10 top-10 left-[4.2rem] h-[75%] w-[75%]" autoplay=""
+                loop=""
+                muted="">
+                <source
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
+                type="video/mp4"
+              /></video>
+            </div>
+        </section>
+    </div>
+
+    <!-- section 3 starts here -->
+    <div class="relative mt-2 bg-black lg:flex items-center py-[3rem] ">
+        <section class="lg:w-[50%] relative">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" class="lg:w-[80%] h-[70%] relative z-50 lg:ml-[20%]">
+        </section>
+        <section class=" flex flex-col items-start lg:ml-30 w-[50%] lg:pr-40">
+            <h2 class="text-5xl font-extrabold mb-4 leading-snug">Download your shows to watch offline</h2>
+            <p class="text-2xl">Save your favourites easily and always have something to watch.</p>
+        </section>
+    </div>
+
+    <!-- section4 starts here -->
+    <div class="relative mt-2 bg-black lg:flex items-center py-[3rem] ">
+        <section class=" flex flex-col justify-center items-start lg:ml-36 lg:mr-18 lg:w[50%] pr-12">
+            <h2 class="text-5xl font-extrabold mb-4">Watch everywhere</h2>
+            <p class="text-2xl">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+        </section>
+        <section class="lg:mr-32 relative lg:w[50%] lg:w-[70%] h-[70%]">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png" class="lg:w-[100%] relative z-50 overflow-x-hidden">
+            <div>
+                <video class="absolute z-10 -top-5 left-[5rem] h-[75%] w-[65%] " autoplay=""
+                loop=""
+                muted="">
+                <source
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v"
+                type="video/mp4"
+              /></video>
+            </div>
+        </section>
+    </div>
+
+    <!-- section 5 starts here -->
+    <div class="relative mt-2 bg-black lg:flex items-center py-[3rem] ">
+        <section class="lg:w-[50%] relative">
+            <img src="https://occ-0-2483-3646.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d" class="lg:w-[80%] h-[70%] relative z-50 lg:ml-[20%]">
+        </section>
+        <section class=" flex flex-col items-start lg:ml-30 w-[50%] lg:pr-40">
+            <h2 class="text-5xl font-extrabold mb-4 leading-snug">Create profiles for kids</h2>
+            <p class="text-2xl font-semibold">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+        </section>
+    </div>
+
+    <!-- Q&A section starts here -->
+     <div class="relative mt-2 bg-black flex flex-col justify-center items-center py-[3rem] h-[1000px]">
+        <h1 class="text-5xl font-extrabold mb-4 ">Frequently Asked Questions</h1>
+        <div id="main" class="relative mt-2 bg-black flex flex-col justify-center items-center w-[90%]">
+
+            <div id="sub" class="bg-zinc-800 w-[84%] h-[5.3rem] mt-2 pl-6 pr-6 flex justify-between items-center cursor-pointer hover:bg-zinc-700"><h4 class="text-2xl font-normal">What is Netflix?</h4><i class="fa-solid fa-plus text-4xl font-thin"></i></div>
+            <div id="sub" class="bg-zinc-800 w-[84%] h-[5.3rem] mt-2 pl-6 pr-6 flex justify-between items-center cursor-pointer hover:bg-zinc-700"><h4 class="text-2xl font-normal">How much does Netflix cost?</h4><i class="fa-solid fa-plus text-4xl font-thin"></i></div>
+            <div id="sub" class="bg-zinc-800 w-[84%] h-[5.3rem] mt-2 pl-6 pr-6 flex justify-between items-center cursor-pointer hover:bg-zinc-700"><h4 class="text-2xl font-normal">Where can I watch?</h4> <i class="fa-solid fa-plus text-4xl font-thin"></i></div>
+            <div id="sub" class="bg-zinc-800 w-[84%] h-[5.3rem] mt-2 pl-6 pr-6 flex justify-between items-center cursor-pointer hover:bg-zinc-700"><h4 class="text-2xl font-normal">How do I cancel?</h4> <i class="fa-solid fa-plus text-4xl font-thin"></i></div>
+            <div id="sub" class="bg-zinc-800 w-[84%] h-[5.3rem] mt-2 pl-6 pr-6 flex justify-between items-center cursor-pointer hover:bg-zinc-700"><h4 class="text-2xl font-normal">What can I watch on Netflix?</h4> <i class="fa-solid fa-plus text-4xl font-thin"></i></div>
+            <div id="sub" class="bg-zinc-800 w-[84%] h-[5.3rem] mt-2 pl-6 pr-6 flex justify-between items-center cursor-pointer hover:bg-zinc-700"><h4 class="text-2xl font-normal">Is Netflix good for kids? </h4><i class="fa-solid fa-plus text-4xl font-thin"></i></div>
+        </div>
+        
+        <div id="lower-signup" class="mt-10 relative">
+            <p class="text-xl font-semibold">Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="flex ">
+                <input type="text" placeholder="Email address" class="absolute left-[26.8%] top-[198.3%] z-50 h-14 w-[28.9%] rounded pl-4 text-bold bg-transparent border-[0.30px] border-gray-400">
+                <button class="w-[16.3%] h-14 bg-red-600 md:px-4 rounded font-semibold  hover:bg-red-700 active:bg-red-800 active:text-gray-200 absolute left-[56.4%] top-[64.3%] z-50 lg:text-2xl justify-center">Get Started<i class="fa-solid fa-chevron-right ml-4 text-lg"></i></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
