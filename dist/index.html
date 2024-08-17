@@ -10,7 +10,7 @@
       rel="icon"
       href="http://pngimg.com/uploads/netflix/small/netflix_PNG15.png">
 </head>
-<body class="bg-zinc-800 text-white overflow-x-hidden h-[900vh] font-sans">
+<body class="bg-zinc-800 text-white overflow-x-hidden h-[auto] w-[100vw] font-sans">
     <!-- header starts here -->
     <header class=" flex items-center lg:justify-around justify-between py-5 px-5 absolute inset-x-0 top-0 z-30 ">
     <div class="logo flex lg:mr-32 lg:ml-10 ">
@@ -109,7 +109,7 @@
     </div>
 
     <!-- Q&A section starts here -->
-     <div class="relative mt-2 bg-black flex flex-col justify-center items-center py-[3rem] h-[1000px]">
+    <div class="relative mt-2 bg-black flex flex-col justify-center items-center pt-[3rem] pb-[4.5rem] h-[auto]">
         <h1 class="text-5xl font-extrabold mb-4 ">Frequently Asked Questions</h1>
         <div id="main" class="relative mt-2 bg-black flex flex-col justify-center items-center w-[90%]">
 
@@ -121,13 +121,50 @@
             <div id="sub" class="bg-zinc-800 w-[84%] h-[5.3rem] mt-2 pl-6 pr-6 flex justify-between items-center cursor-pointer hover:bg-zinc-700"><h4 class="text-2xl font-normal">Is Netflix good for kids? </h4><i class="fa-solid fa-plus text-4xl font-thin"></i></div>
         </div>
         
-        <div id="lower-signup" class="mt-10 relative">
+        <div id="lower-signup" class="mt-10 ">
             <p class="text-xl font-semibold">Ready to watch? Enter your email to create or restart your membership.</p>
             <div class="flex ">
-                <input type="text" placeholder="Email address" class="absolute left-[26.8%] top-[198.3%] z-50 h-14 w-[28.9%] rounded pl-4 text-bold bg-transparent border-[0.30px] border-gray-400">
-                <button class="w-[16.3%] h-14 bg-red-600 md:px-4 rounded font-semibold  hover:bg-red-700 active:bg-red-800 active:text-gray-200 absolute left-[56.4%] top-[64.3%] z-50 lg:text-2xl justify-center">Get Started<i class="fa-solid fa-chevron-right ml-4 text-lg"></i></button>
+                <input type="text" placeholder="Email address" class="z-50 mt-5 ml-5 h-14 w-[58.9%] rounded pl-4 text-bold bg-transparent border-[0.30px] border-gray-400">
+                <button class="w-[33.3%] h-14 bg-red-600 mt-5 ml-2 md:px-4 rounded font-semibold  hover:bg-red-700 active:bg-red-800 active:text-gray-200 z-50 lg:text-2xl justify-center">Get Started<i class="fa-solid fa-chevron-right ml-4 text-lg"></i></button>
             </div>
         </div>
     </div>
+
+    <!-- footer section starts here -->
+    <footer class="relative mt-2 bg-black lg:flex-col items-center py-[3rem] text-zinc-400">
+        <section class="lg:ml-[9.5rem] relative mb-5 mt-5">
+            <p class="text-[1rem] font-semibold">Questions? Call <a href="tel:000-800-919-1694" class="underline">000-800-919-1694</a></p>
+        </section>
+        <section class=" flex-col w-[80%] lg:ml-[9.2rem] ">
+            <ul class=" flex flex-wrap h-auto">
+                <!-- i can add <a> tags here for the links but i dont think i need to do it instead i am adding text decoration for the underline -->
+                <li class="m-2 w-56 text-[0.9rem] underline font-semibold">FAQ</li>
+                <li class="m-2 w-56 text-[0.9rem] underline font-semibold">Help Centre</li>
+                <li class="m-2 w-56 text-[0.9rem] underline font-semibold">Account</li>
+                <li class="m-2  w-56 text-[0.9rem] underline font-semibold">Media Centre</li>
+                <li class="m-2 w-56 text-[0.9rem] underline font-semibold">Investor Relations</li>
+                <li class="m-2 w-56 text-[0.9rem] underline font-semibold">Jobs</li>
+                <li class="m-2 w-56 text-[0.9rem] underline font-semibold">Ways to Watch</li>
+                <li class="m-2  w-56 text-[0.9rem] underline font-semibold">Terms of Use</li>
+                <li class="m-2 w-56 text-[0.9rem] underline font-semibold">Privacy</li>
+                <li class="m-2 w-56 text-[0.9rem] underline font-semibold">Cookie Preferences</li>
+                <li class="m-2 w-56 text-[0.9rem] underline font-semibold">Corporate Information</li>
+                <li class="m-2  w-56 text-[0.9rem] underline font-semibold">Contact Us</li>
+                <li class="m-2 w-56 text-[0.9rem] underline font-semibold">Speed Test</li>
+                <li class="m-2 w-56 text-[0.9rem] underline font-semibold">Legal Notices</li>
+                <li class="m-2 w-56 text-[0.9rem] underline font-semibold">Only on Netflix</li>
+            </ul>
+        </section>
+        <section>
+            <div class=" lg:ml-[9.5rem] button flex items-center justify-evenly border border-zinc-600 h-7 w-32 mt-4 md:w-30 md:h-8 rounded  md:mx-6 mx-2 md:px-1 cursor-pointer">
+                <i class="fa-solid fa-language mx-2 text-white"></i>
+                <p class="hidden md:block text-white">English</p>
+                <i class="fa-solid fa-sort-down mx-2 text-xs text-white"></i>
+            </div>
+            <div class="lg:ml-[9.5rem] mt-4">
+                <p class="text-sm">Netflix India</p>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
