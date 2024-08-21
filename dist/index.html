@@ -30,20 +30,23 @@
     </header>
 
     <!-- hero section starts here -->
-     <div class="relative">
-        <div id="hero" class="h-[auto] w-[auto] -z-10 "><img src="https://assets.nflxext.com/ffe/siteui/vlv3/b2c3e95b-b7b5-4bb7-a883-f4bfc7472fb7/19fc1a4c-82db-4481-ad08-3a1dffbb8c39/IN-en-20240805-POP_SIGNUP_TWO_WEEKS-perspective_WEB_24a485f6-1820-42be-9b60-1b066f1eb869_large.jpg"class=" overflow-x-auto object-cover   h-[auto] scale-100 w-[auto]">
+     <div class="relative flex-col align-middle">
+            <div id="hero" class=" bg-cover bg-center -z-10 h-[100vh]" style="background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/b2c3e95b-b7b5-4bb7-a883-f4bfc7472fb7/19fc1a4c-82db-4481-ad08-3a1dffbb8c39/IN-en-20240805-POP_SIGNUP_TWO_WEEKS-perspective_WEB_24a485f6-1820-42be-9b60-1b066f1eb869_large.jpg')">
+            </div>
+        <div id="hero-bg-overlay" class="w-[100%] bg-gradient-to-t bg-[#1f1f1f53]  absolute inset-x-0 top-0 z-0 h-[100%]">
         </div>
-        <div id="hero-bg-overlay" class="w-[100%] bg-gradient-to-t bg-[#1f1f1f53]  absolute inset-x-0 top-0 z-20 h-[100%]">
+        <div id="hero-bg-overlay2" class="w-[100%] bg-gradient-to-b bg-[#0d0d0d8b] absolute inset-x-0 top-0 z-0 h-[100%]">
         </div>
-        <div id="hero-bg-overlay2" class="w-[100%] bg-gradient-to-b bg-[#0d0d0d8b] absolute inset-x-0 top-0 z-20 h-[100%]">
+        <div class="flex flex-col absolute lg:top-[40%] md:top-[35%] top-[20%] text-center w-[100%] gap-3">
+            <h1 class="text-white  z-10 text-5xl font-bold"> Unlimited movies, TV shows and more</h1>
+            <p class="text-white  z-10 text-2xl ">Watch anywhere. Cancel anytime.</p>
+            <p class="text-white  z-10 text-xl ">Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="flex w-[100%] gap-3 justify-center">
+                <input type="text" placeholder="Email address" class=" h-14 w-[28.9%] rounded pl-4 text-bold bg-transparent border-[0.30px] border-gray-400">
+                <button class="w-[16.3%] h-14 bg-red-600 md:px-4 rounded font-semibold  hover:bg-red-700 active:bg-red-800 active:text-gray-200  lg:text-2xl justify-center">Get Started<i class="fa-solid fa-chevron-right ml-4 text-lg"></i></button>
+            </div>
         </div>
-        <h1 class="text-white absolute left-[15.5%] top-[40%] z-50 lg:text-5xl lg:font-bold"> Unlimited movies, TV shows and more</h1>
-        <p class="text-white absolute left-[35.5%] top-[50%] z-50 lg:text-2xl ">Watch anywhere. Cancel anytime.</p>
-        <p class="text-white absolute left-[25%] top-[58%] z-50 lg:text-xl ">Ready to watch? Enter your email to create or restart your membership.</p>
-        <div class="flex ">
-            <input type="text" placeholder="Email address" class="absolute left-[26.8%] top-[64.3%] z-50 h-14 w-[28.9%] rounded pl-4 text-bold bg-transparent border-[0.30px] border-gray-400">
-            <button class="w-[16.3%] h-14 bg-red-600 md:px-4 rounded font-semibold  hover:bg-red-700 active:bg-red-800 active:text-gray-200 absolute left-[56.4%] top-[64.3%] z-50 lg:text-2xl justify-center">Get Started<i class="fa-solid fa-chevron-right ml-4 text-lg"></i></button>
-        </div>
+        
     </div>
     
     <!-- 2nd section starts here-->
